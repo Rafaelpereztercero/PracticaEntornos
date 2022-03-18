@@ -10,7 +10,7 @@ A continuación, procederemos a ejecutar los siguientes comandos :
 3.    git branch : para crear una nueva rama
 4.    git commit -m "" : para crear un nuevo commit
 5.    git push : para subir al repositorio linkeado previamente
-ADEMÁS HEMOS DE DISPONER DE UNA CLAVE SSH <a href = "https://docs.github.com/es/authentication/managing-commit-signature-verification">CLICK AQUÍ PARA INFO>
+ADEMÁS HEMOS DE DISPONER DE UNA CLAVE SSH <a href = "https://docs.github.com/es/authentication/managing-commit-signature-verification">CLICK AQUÍ PARA INFO</a>
 
 ### 2. CREAR UNA RAMA NUEVA Y ACTUALIZAR LA VERSIÓN DE LA MASTER 
 En primer lugar hemos de crear la rama *dev* con el comando indicado previamente (**git branch**), a continuación realizamos un **git add .** para preparar los archivos que queremos subir, nos movemos de rama con **git checkout**, creamos un commit nuevo con **git commit -m** el cual nos detectará que han habido cambios en el archivo y solo nos quedará hacer un **git push** para subirlo todo.
@@ -31,6 +31,8 @@ En primer lugar, nos movemos a la rama main empleando el comando **git checkout*
 ### 5. REALIZAR REFACTORIZACIONES EN UNA RAMA DESDE UNA VERSIÓN ANTERIOR
 
 En primer lugar,nos dirigimos a la rama deseada con **git checkout**, a continuación, realizamos las refactorizaciones deseadas y empleamos un **git status** para ver si aparecen valores modificados, después, realizaremos un **git add** a los archivos a actualizar, agregamos un **commit** y realizamos un **git push** para subirlo todo
+  
+
 <img src="https://media.discordapp.net/attachments/954218673885823037/954223675182301184/unknown.png?width=718&height=670">
 
 ### 6. ACTUALIZAR RAMA MASTER
