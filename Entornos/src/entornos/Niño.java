@@ -22,8 +22,14 @@ public class Niño extends Persona{
     
     @Override
     public String toString(){
-        return "nombre: "+this.getNombre()+" DNI: "+this.getDNI()+ " edad: "
-                +this.getEdad()+" colegio: "+this.colegio;
+        return "nombre: "+
+                this.getNombre()+
+                " DNI: "+
+                this.getDNI()+
+                " edad: "+
+                this.getEdad()+
+                " colegio: "+
+                this.colegio;
     }
         
 }
