@@ -38,7 +38,13 @@ public class Juguete {
 
     @Override
     public String toString() {
-        return "Juguete: " + "nombre=" + nombre + ", precio=" + precio + ", edadRecomendada=" + edadRecomendada + '}';
+        return "Juguete: " +
+                "nombre=" +
+                nombre +
+                ", precio=" +
+                precio +
+                ", edadRecomendada=" +
+                edadRecomendada + '}';
     }
 
 }
