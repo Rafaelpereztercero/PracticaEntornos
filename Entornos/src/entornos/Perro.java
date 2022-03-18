@@ -19,7 +19,10 @@ public class Perro extends Mascota {
 
     @Override
     public String toString() {
-        return  "nombre: "+this.getNombre()+" edad: "+ this.getEdad()+" raza: " + this.raza ;
+        return  "nombre: "+
+                this.getNombre()+
+                " edad: "+ this.getEdad()+
+                " raza: " + this.raza ;
     }
     
 }
