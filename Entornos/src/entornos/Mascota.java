@@ -29,7 +29,10 @@ public class Mascota {
 
     @Override
     public String toString() {
-        return "nombre: " +this.getNombre()+ ", edad: " + this.getEdad();
+        return "nombre: " +
+                this.getNombre()+
+                ", edad: " +
+                this.getEdad();
     }
     
 }
