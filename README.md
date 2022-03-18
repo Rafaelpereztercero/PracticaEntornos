@@ -5,7 +5,7 @@ En primer lugar hemos de crear un **repositorio** de la siguiente manera:
 <img src="https://cdn.discordapp.com/attachments/954218673885823037/954218679900471347/unknown.png">
 
 A continuación, procederemos a ejecutar los siguientes comandos :
-1.    git init : para inizializar el empty git repository
+1.    git init : para inizializar el git repository
 2.    git remote add : para enlazarlo con el reposoitorio
 3.    git branch : para crear una nueva rama
 4.    git commit -m "" : para crear un nuevo commit
@@ -14,12 +14,16 @@ ADEMÁS HEMOS DE DISPONER DE UNA CLAVE SSH <a href = "https://docs.github.com/es
 
 ### 2. CREAR UNA RAMA NUEVA Y ACTUALIZAR LA VERSIÓN DE LA MASTER 
 En primer lugar hemos de crear la rama *dev* con el comando indicado previamente (**git branch**), a continuación realizamos un **git add .** para preparar los archivos que queremos subir, nos movemos de rama con **git checkout**, creamos un commit nuevo con **git commit -m** el cual nos detectará que han habido cambios en el archivo y solo nos quedará hacer un **git push** para subirlo todo.
+
+
 <img src = "https://media.discordapp.net/attachments/954218673885823037/954220038473252904/unknown.png">
 
 ### 3. REALIZAR 2 REFACTORIZACIONES
 En primer lugar, hemos de realizar varios cambios en las files que queramos subir, en mi caso, he editado las interfaces y también la estructura del toString para hacer el código más eficiente.
 
 Una vez tengamos el código cambiado, hacemos un **git add** al archivo específico que hemos cambiado y seguidamente, añadimos tanto un **git commit -m** como un **git push**
+
+
 <img src = "https://media.discordapp.net/attachments/954218673885823037/954221263134527579/unknown.png">
 
 ### 4. ACTUALIZAR RAMA MASTER CON UNA NUEVA VERSIÓN ESTABLE
