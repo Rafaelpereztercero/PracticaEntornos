@@ -36,6 +36,7 @@ En primer lugar,nos dirigimos a la rama deseada con **git checkout**, a continua
 ### 6. ACTUALIZAR RAMA MASTER
 
 En primer lugar, nos dirigimos a la rama desada con **git checkout**,realizamos un **git merge**, a continuación, realizamos un **git log**, hacemos un **git status** para comprobar que todo está correcto, añadimos un **commit** y hacemos un **git push**
+  
 <img src = "https://media.discordapp.net/attachments/954218673885823037/954224372053323816/unknown.png?width=585&height=670">
 
 
